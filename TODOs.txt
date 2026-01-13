@@ -1,0 +1,13 @@
+1. DOING -> In results, renaming Annotation Feature classes according to the source layer name and exclude the multipolygon feature classes of the same name.
+2. investigate why the .lpkx files are not getting created on Andrew's environment
+3. results zip should include layer packages, jsons, and output_data.geodatabase all on the same level
+
+ --> DONE: changed where JSON files are saved to be in the same output same level folder
+ 
+Nice to haves:
+1. able to modify the config.json without restarting application
+2. DONE -> check how to populate survey_type Enum/dropdown in swagger (without restarting application)
+3. (Nice to Have) Required Feature Classes:
+	Mains, Services, Riser, Proposed
+	- validate that non-coverable layers do not appear in "feature_classes_to_clip.shapefile_name_target"
+	- validate that all coverable layers appear at least once in "feature_classes_to_clip.shapefile_name_target"
