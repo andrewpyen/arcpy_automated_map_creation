@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Output data folders
+/output/*
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Environment config - COMMENTING OUT TO ENSURE THE .env IS UPDATED
+# .env
+# .env.*
+
+# VS Code
+.vscode/
+.settings/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# IDEs
+.idea/
+*.iml
+
+# Coverage / Testing
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+.cache/
+
+# MyPy / Pylint / Pyright
+.mypy_cache/
+.pytest_cache/
+.pyrightcache/
+
+# Survey Status SQLite db
+*.db
+
+
+# Survey Mapper outputs
+/source-data/logs/
+temp_config_*.json
+*.gdb
+*.gdb/*
+*.shp
+*.shp.xml
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qpj
+*.sbn
+*.sbx
+*.lock
+
+# Docker
+*.pid
+*.tar
