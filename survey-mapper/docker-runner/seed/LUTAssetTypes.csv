@@ -1,0 +1,30 @@
+Id,Name,Description,AlternativeName,GeometryType,GeometryType_Corrected
+1,MainLine,MainLine,Mains,Polyline,Polyline
+2,ServiceLine,ServiceLine,Services, LongServices,Polyline
+3,AddressPoint,AddressPoint,Address,Point,Point
+4,Mapsheet,Mapsheet,Gridzones,Polygon,Polygon
+5,BusinessDistrict,BusinessDistrict,BusinessDistricts,Polygon,Polygon
+6,Proposed,Proposed,Proposed,Polyline,Polyline
+7,Riser,Riser,Riser, InactiveRiser,Point
+8,Stub,Stub,Stub, Stubs,Point
+9,PropertyLine,PropertyLine,PropertyLine,Polyline,Polyline
+10,ROWLine,ROWLine,ROWLine,Polyline,Polyline
+11,MobileHomeParks,MobileHomeParks,MobileHomeParks,Polygon,Polygon
+12,ControllableFitting,ControllableFitting,ControllableFitting,Point,Point
+13,CPTestPoint,CPTestPoint,CPTestPoint,Point,Point
+14,GasLeakRepair,GasLeakRepair,GasLeakRepair,Point,Point
+15,GasValve,GasValve,GasValve,Point,Point
+16,HouseNbrAnno,HouseNbrAnno,HouseNbrAnno,Point,Point
+17,NonControllableFitting,NonControllableFitting,NonControllableFitting,Point,Point
+18,RegulatorStation,RegulatorStation,RegulatorStation,Point,Point
+19,FOMSACData,FOMSACData,FOMSACData,Point,Point
+20,LandbaseTextAddr,LandbaseTextAddr,LandbaseTextAddr,Point,Point
+21,GasLamp,GasLamp,GasLamp,Point,Point
+22,AMIndicationLocation,AMIndicationLocation,AMIndicationLocation,Point,Point
+23,AMIndicationPolygon,AMIndicationPolygon,AMIndicationPolygon,Polygon,Polygon
+24,AMCoveragePolygon,AMCoveragePolygon,AMCoveragePolygon,Polygon,Polygon
+25,NIPoints,NIPoints,NIPoints,Point,Point
+26,NILines,NILines,NILines,Polyline,Polyline
+27,NIPolygons,NIPolygons,NIPolygons,Polygon,Polygon
+28,GasMeters,GasMeters,GasMeters,Point,Point
+29,Annotation,Annotation,Annotation, Annotations,Point

@@ -1,0 +1,25 @@
+services:
+  postgis:
+    image: postgis/postgis:latest
+    container_name: postgis-container
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: gis
+    volumes:
+      - postgis_data:/var/lib/postgresql/data
+      - ./seed:/docker-entrypoint-initdb.d
+
+  gisapp:
+      build: .
+      depends_on:
+        - postgis
+      environment:
+        DATABASE_URL: postgresql://postgres:postgres@postgis:5432/gis
+
+
+volumes:
+  postgis_data:
