@@ -1,0 +1,142 @@
+[
+  {
+    "feature_class_name_source": "Main",
+    "shapefile_name_target": "Main"
+  },
+  {
+    "feature_class_name_source": "Service",
+    "shapefile_name_target": "Service"
+  },
+  {
+    "feature_class_name_source": "Riser",
+    "shapefile_name_target": "Riser"
+  },
+  {
+    "feature_class_name_source": "STUBS",
+    "shapefile_name_target": "STUBS"
+  },
+  {
+    "feature_class_name_source": "LONG_SERVICES",
+    "shapefile_name_target": "LONG_SERVICES"
+  },
+  {
+    "feature_class_name_source": "MEGA_SERVICES",
+    "shapefile_name_target": "MEGA_SERVICES"
+  },
+  {
+    "feature_class_name_source": "Inactive_Riser",
+    "shapefile_name_target": "Inactive_Riser"
+  },
+  {
+    "feature_class_name_source": "NULL_RISER",
+    "shapefile_name_target": "NULL_RISER"
+  },
+  {
+    "feature_class_name_source": "ProposedLegacy",
+    "shapefile_name_target": "ProposedLegacy"
+  },
+  {
+    "feature_class_name_source": "OldDocBoundary",
+    "shapefile_name_target": "OldDocBoundary"
+  },
+  {
+    "feature_class_name_source": "BusinessDistrict",
+    "shapefile_name_target": "BusinessDistrict"
+  },
+  {
+    "feature_class_name_source": "LeakSurvey",
+    "shapefile_name_target": "LeakSurvey"
+  },
+  {
+    "feature_class_name_source": "ControllableFitting",
+    "shapefile_name_target": "ControllableFitting"
+  },
+  {
+    "feature_class_name_source": "NonControllableFitting",
+    "shapefile_name_target": "NonControllableFitting"
+  },
+  {
+    "feature_class_name_source": "GasValve",
+    "shapefile_name_target": "GasValve"
+  },
+  {
+    "feature_class_name_source": "RegulatorStation",
+    "shapefile_name_target": "RegulatorStation"
+  },
+  {
+    "feature_class_name_source": "GasLamp",
+    "shapefile_name_target": "GasLamp"
+  },
+  {
+    "feature_class_name_source": "GasLeak",
+    "shapefile_name_target": "GasLeak"
+  },
+  {
+    "feature_class_name_source": "GasLeakRepair",
+    "shapefile_name_target": "GasLeakRepair"
+  },
+  {
+    "feature_class_name_source": "WORK_REQUEST",
+    "shapefile_name_target": "WORK_REQUEST"
+  },
+  {
+    "feature_class_name_source": "SAPDATA",
+    "shapefile_name_target": "SAPDATA"
+  },
+  {
+    "feature_class_name_source": "ROWLine",
+    "shapefile_name_target": "ROWLine"
+  },
+  {
+    "feature_class_name_source": "PropertyLine",
+    "shapefile_name_target": "PropertyLine"
+  },
+  {
+    "feature_class_name_source": "DimensionLineLegacy",
+    "shapefile_name_target": "DimensionLineLegacy"
+  },
+  {
+    "feature_class_name_source": "QuarterTownship",
+    "shapefile_name_target": "QuarterTownship"
+  },
+  {
+    "feature_class_name_source": "Tract",
+    "shapefile_name_target": "Tract"
+  },
+  {
+    "feature_class_name_source": "MainAnnotation",
+    "shapefile_name_target": "MainAnnotation"
+  },
+  {
+    "feature_class_name_source": "ServiceAnnotation",
+    "shapefile_name_target": "ServiceAnnotation"
+  },
+  {
+    "feature_class_name_source": "LandbaseText_Proposed",
+    "shapefile_name_target": "LandbaseText_Proposed"
+  },
+  {
+    "feature_class_name_source": "LandbaseText_LotNum",
+    "shapefile_name_target": "LandbaseText_LotNum"
+  },
+  {
+    "feature_class_name_source": "LandbaseText_Addr",
+    "shapefile_name_target": "LandbaseText_Addr"
+  },
+  {
+    "feature_class_name_source": "LandbaseText_Dimension",
+    "shapefile_name_target": "LandbaseText_Dimension"
+  },
+  {
+    "feature_class_name_source": "Dimensions",
+    "shapefile_name_target": "Dimensions"
+  },
+  {
+    "feature_class_name_source": "MainAnnotation_clean",
+    "shapefile_name_target": "MainAnnotation_clean"
+  },
+  {
+    "feature_class_name_source": "ServiceAnnotation_clean",
+    "shapefile_name_target": "ServiceAnnotation_clean"
+  }
+]

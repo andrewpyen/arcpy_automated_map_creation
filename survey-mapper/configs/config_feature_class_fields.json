@@ -1,0 +1,3565 @@
+[
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\Main",
+    "feature_class_name_source": "Main",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "RECORDEDLENGTH",
+        "alias": "RECORDEDLENGTH",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "MAINTYPE",
+        "alias": "MAINTYPE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "MATERIAL",
+        "alias": "MATERIAL",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "DIAMETER",
+        "alias": "DIAMETER",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "MANUFACTURER",
+        "alias": "MANUFACTURER",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "INSTALLATIONDATE",
+        "alias": "INSTALLATIONDATE",
+        "type": "Date",
+        "length": ""
+      },
+      {
+        "name": "JOBNUMBER",
+        "alias": "JOBNUMBER",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "NCDPMaterial",
+        "alias": "NCDPMaterial",
+        "type": "String",
+        "length": 255
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\Service",
+    "feature_class_name_source": "Service",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "RECORDEDLENGTH",
+        "alias": "RECORDEDLENGTH",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "SERVICETYPE",
+        "alias": "SERVICETYPE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "MATERIAL",
+        "alias": "MATERIAL",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "DIAMETER",
+        "alias": "DIAMETER",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "MANUFACTURER",
+        "alias": "MANUFACTURER",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SERVICEOBJECTSWGUID",
+        "alias": "SERVICEOBJECTSWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "INSTALLATIONDATE",
+        "alias": "INSTALLATIONDATE",
+        "type": "Date",
+        "length": ""
+      },
+      {
+        "name": "JOBNUMBER",
+        "alias": "JOBNUMBER",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "NCDPMaterial",
+        "alias": "NCDPMaterial",
+        "type": "String",
+        "length": 255
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\Riser",
+    "feature_class_name_source": "Riser",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SERVICEOBJECTSWGUID",
+        "alias": "SERVICEOBJECTSWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "DIAMETER",
+        "alias": "DIAMETER",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "RISERTYPE",
+        "alias": "RISERTYPE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\STUBS",
+    "feature_class_name_source": "STUBS",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "MASTER_SWGUID",
+        "alias": "MASTER_SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "TYPE",
+        "alias": "TYPE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "PATROL_TYPE",
+        "alias": "PATROL_TYPE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "DIAMETER",
+        "alias": "DIAMETER",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "MATERIAL",
+        "alias": "MATERIAL",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "RESOLUTION",
+        "alias": "RESOLUTION",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "GIS_STATUS",
+        "alias": "GIS_STATUS",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "RECALC_RECORDED_LEN",
+        "alias": "RECALC_RECORDED_LEN",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "INSTALL_YEAR",
+        "alias": "INSTALL_YEAR",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\LONG_SERVICES",
+    "feature_class_name_source": "LONG_SERVICES",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "DIAMETER",
+        "alias": "DIAMETER",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "MATERIAL",
+        "alias": "MATERIAL",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "GIS_STATUS",
+        "alias": "GIS_STATUS",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SERVICEOBJECTSWGUID",
+        "alias": "SERVICEOBJECTSWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "RECORDEDLENGTH",
+        "alias": "RECORDEDLENGTH",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "INSTALL_YEAR",
+        "alias": "INSTALL_YEAR",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "RESOLUTION",
+        "alias": "RESOLUTION",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\MEGA_SERVICES",
+    "feature_class_name_source": "MEGA_SERVICES",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "GIS_STATUS",
+        "alias": "GIS_STATUS",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "DIAMETER",
+        "alias": "DIAMETER",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "MATERIAL",
+        "alias": "MATERIAL",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "SERVICEOBJECTSWGUID",
+        "alias": "SERVICEOBJECTSWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "RECALC_RECORDED_LEN",
+        "alias": "RECALC_RECORDED_LEN",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "INSTALL_YEAR",
+        "alias": "INSTALL_YEAR",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "RESOLUTION",
+        "alias": "RESOLUTION",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\Inactive_Riser",
+    "feature_class_name_source": "Inactive_Riser",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "RISERSWGUID",
+        "alias": "RISERSWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SERVICEOBJECTSWGUID",
+        "alias": "SERVICEOBJECTSWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "RESOLUTION",
+        "alias": "RESOLUTION",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "GIS_STATUS",
+        "alias": "GIS_STATUS",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\NULL_RISER",
+    "feature_class_name_source": "NULL_RISER",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SERVICEOBJECTSWGUID",
+        "alias": "SERVICEOBJECTSWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "RESOLUTION",
+        "alias": "RESOLUTION",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "GIS_STATUS",
+        "alias": "GIS_STATUS",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "TRANSITION",
+        "alias": "TRANSITION",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\ProposedLegacy",
+    "feature_class_name_source": "ProposedLegacy",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "STATUS",
+        "alias": "STATUS",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\OldDocBoundary",
+    "feature_class_name_source": "OldDocBoundary",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "BOUNDARYNAMEID",
+        "alias": "BOUNDARYNAMEID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\BusinessDistrict",
+    "feature_class_name_source": "BusinessDistrict",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "BOUNDARYNAMEID",
+        "alias": "BOUNDARYNAMEID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\LeakSurvey",
+    "feature_class_name_source": "LeakSurvey",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "BOUNDARYNAMEID",
+        "alias": "BOUNDARYNAMEID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\ControllableFitting",
+    "feature_class_name_source": "ControllableFitting",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SUBTYPECD",
+        "alias": "SUBTYPECD",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "MATERIAL",
+        "alias": "MATERIAL",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\NonControllableFitting",
+    "feature_class_name_source": "NonControllableFitting",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SUBTYPECD",
+        "alias": "SUBTYPECD",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "MATERIAL",
+        "alias": "MATERIAL",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\GasValve",
+    "feature_class_name_source": "GasValve",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "DIAMETER",
+        "alias": "DIAMETER",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "VALVEID",
+        "alias": "VALVEID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\RegulatorStation",
+    "feature_class_name_source": "RegulatorStation",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "REGULATORSTATIONID",
+        "alias": "REGULATORSTATIONID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\GasLamp",
+    "feature_class_name_source": "GasLamp",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "RISERTYPE",
+        "alias": "RISERTYPE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\GasLeak",
+    "feature_class_name_source": "GasLeak",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "WORK_REQUEST_NUMBER",
+        "alias": "WORK_REQUEST_NUMBER",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "ADDRESS",
+        "alias": "ADDRESS",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "LEAK_CAUSE_PRIMARY",
+        "alias": "LEAK_CAUSE_PRIMARY",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FACILITY_SWGUID",
+        "alias": "FACILITY_SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "LADS_LIFECYCLE_STATUS",
+        "alias": "LADS_LIFECYCLE_STATUS",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\GasLeakRepair",
+    "feature_class_name_source": "GasLeakRepair",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "LEAKCAUSE",
+        "alias": "LEAKCAUSE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "JOBNUMBER",
+        "alias": "JOBNUMBER",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "DATEREPAIRED",
+        "alias": "DATEREPAIRED",
+        "type": "Date",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\WORK_REQUEST",
+    "feature_class_name_source": "WORK_REQUEST",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "WR_NO",
+        "alias": "WR_NO",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "WR_NAME",
+        "alias": "WR_NAME",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "CONSTRUCTION_COMPLETE_DATE",
+        "alias": "CONSTRUCTION_COMPLETE_DATE",
+        "type": "Date",
+        "length": ""
+      },
+      {
+        "name": "WR_TYPE_CODE",
+        "alias": "WR_TYPE_CODE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "CODE_DESC",
+        "alias": "CODE_DESC",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "WR_DESC",
+        "alias": "WR_DESC",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "WR_STATUS_CODE",
+        "alias": "WR_STATUS_CODE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "INSTALL_TOTAL_FOOTAGE",
+        "alias": "INSTALL_TOTAL_FOOTAGE",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\SAPDATA",
+    "feature_class_name_source": "SAPDATA",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "NAME",
+        "alias": "NAME",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "PHONE",
+        "alias": "PHONE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "METER_READ_INST",
+        "alias": "METER_READ_INST",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\ROWLine",
+    "feature_class_name_source": "ROWLine",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "STATUS",
+        "alias": "STATUS",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\PropertyLine",
+    "feature_class_name_source": "PropertyLine",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "STATUS",
+        "alias": "STATUS",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\DimensionLineLegacy",
+    "feature_class_name_source": "DimensionLineLegacy",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "STATUS",
+        "alias": "STATUS",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\QuarterTownship",
+    "feature_class_name_source": "QuarterTownship",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "STATUS",
+        "alias": "STATUS",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "BOUNDARYNAMEID",
+        "alias": "BOUNDARYNAMEID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "TOWNSHIP",
+        "alias": "TOWNSHIP",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "RANGE",
+        "alias": "RANGE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SECTION",
+        "alias": "SECTION",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "QUADRANT",
+        "alias": "QUADRANT",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\Tract",
+    "feature_class_name_source": "Tract",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "BOUNDARYNAMEID",
+        "alias": "BOUNDARYNAMEID",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "DOCKETNUMBER",
+        "alias": "DOCKETNUMBER",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "STATUS",
+        "alias": "STATUS",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "SHAPE_",
+        "alias": "SHAPE_",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\MainAnnotation",
+    "feature_class_name_source": "MainAnnotation",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "FeatureID",
+        "alias": "FeatureID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "ZOrder",
+        "alias": "ZOrder",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "AnnotationClassID",
+        "alias": "AnnotationClassID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Element",
+        "alias": "Element",
+        "type": "Blob",
+        "length": ""
+      },
+      {
+        "name": "SymbolID",
+        "alias": "SymbolID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Status",
+        "alias": "Status",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "TextString",
+        "alias": "TextString",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontName",
+        "alias": "FontName",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontSize",
+        "alias": "FontSize",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Bold",
+        "alias": "Bold",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Italic",
+        "alias": "Italic",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Underline",
+        "alias": "Underline",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "VerticalAlignment",
+        "alias": "VerticalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "HorizontalAlignment",
+        "alias": "HorizontalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "XOffset",
+        "alias": "XOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "YOffset",
+        "alias": "YOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Angle",
+        "alias": "Angle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FontLeading",
+        "alias": "FontLeading",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "WordSpacing",
+        "alias": "WordSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterWidth",
+        "alias": "CharacterWidth",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterSpacing",
+        "alias": "CharacterSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FlipAngle",
+        "alias": "FlipAngle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Override",
+        "alias": "Override",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "MAINSWGUID",
+        "alias": "MainSWGUID",
+        "type": "String",
+        "length": 12
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 12
+      },
+      {
+        "name": "TXTVALUE",
+        "alias": "TXTVALUE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "TXTSTYLE",
+        "alias": "TXTSTYLE",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "TXTHEIGHT",
+        "alias": "TXTHEIGHT",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "LAYER",
+        "alias": "LAYER",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "COLOR",
+        "alias": "COLOR",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "CADTYPE",
+        "alias": "CADTYPE",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "GLOBALID",
+        "alias": "GLOBALID",
+        "type": "GlobalID",
+        "length": ""
+      },
+      {
+        "name": "CREATIONUSER",
+        "alias": "Creation User",
+        "type": "String",
+        "length": 20
+      },
+      {
+        "name": "DATECREATED",
+        "alias": "Date Created",
+        "type": "Date",
+        "length": ""
+      },
+      {
+        "name": "DATEMODIFIED",
+        "alias": "Date Modified",
+        "type": "Date",
+        "length": ""
+      },
+      {
+        "name": "LASTUSER",
+        "alias": "Last User",
+        "type": "String",
+        "length": 20
+      },
+      {
+        "name": "SHAPE_AREA_1",
+        "alias": "SHAPE_AREA_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_LEN_1",
+        "alias": "SHAPE_LEN_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\ServiceAnnotation",
+    "feature_class_name_source": "ServiceAnnotation",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "FeatureID",
+        "alias": "FeatureID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "ZOrder",
+        "alias": "ZOrder",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "AnnotationClassID",
+        "alias": "AnnotationClassID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Element",
+        "alias": "Element",
+        "type": "Blob",
+        "length": ""
+      },
+      {
+        "name": "SymbolID",
+        "alias": "SymbolID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Status",
+        "alias": "Status",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "TextString",
+        "alias": "TextString",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontName",
+        "alias": "FontName",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontSize",
+        "alias": "FontSize",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Bold",
+        "alias": "Bold",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Italic",
+        "alias": "Italic",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Underline",
+        "alias": "Underline",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "VerticalAlignment",
+        "alias": "VerticalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "HorizontalAlignment",
+        "alias": "HorizontalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "XOffset",
+        "alias": "XOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "YOffset",
+        "alias": "YOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Angle",
+        "alias": "Angle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FontLeading",
+        "alias": "FontLeading",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "WordSpacing",
+        "alias": "WordSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterWidth",
+        "alias": "CharacterWidth",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterSpacing",
+        "alias": "CharacterSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FlipAngle",
+        "alias": "FlipAngle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Override",
+        "alias": "Override",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "SERVICESWGUID",
+        "alias": "ServiceSWGUID",
+        "type": "String",
+        "length": 12
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 12
+      },
+      {
+        "name": "TXTVALUE",
+        "alias": "TXTVALUE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "TXTSTYLE",
+        "alias": "TXTSTYLE",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "TXTHEIGHT",
+        "alias": "TXTHEIGHT",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "LAYER",
+        "alias": "LAYER",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "COLOR",
+        "alias": "COLOR",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "CADTYPE",
+        "alias": "CADTYPE",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "GLOBALID",
+        "alias": "GLOBALID",
+        "type": "GlobalID",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_AREA_1",
+        "alias": "SHAPE_AREA_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_LEN_1",
+        "alias": "SHAPE_LEN_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\LandbaseText_Proposed",
+    "feature_class_name_source": "LandbaseText_Proposed",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "FeatureID",
+        "alias": "FeatureID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "ZOrder",
+        "alias": "ZOrder",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "AnnotationClassID",
+        "alias": "AnnotationClassID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Element",
+        "alias": "Element",
+        "type": "Blob",
+        "length": ""
+      },
+      {
+        "name": "SymbolID",
+        "alias": "SymbolID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Status",
+        "alias": "Status",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "TextString",
+        "alias": "TextString",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontName",
+        "alias": "FontName",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontSize",
+        "alias": "FontSize",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Bold",
+        "alias": "Bold",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Italic",
+        "alias": "Italic",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Underline",
+        "alias": "Underline",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "VerticalAlignment",
+        "alias": "VerticalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "HorizontalAlignment",
+        "alias": "HorizontalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "XOffset",
+        "alias": "XOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "YOffset",
+        "alias": "YOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Angle",
+        "alias": "Angle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FontLeading",
+        "alias": "FontLeading",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "WordSpacing",
+        "alias": "WordSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterWidth",
+        "alias": "CharacterWidth",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterSpacing",
+        "alias": "CharacterSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FlipAngle",
+        "alias": "FlipAngle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Override",
+        "alias": "Override",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "UNIQID",
+        "alias": "UNIQID",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "TXTVALUE",
+        "alias": "TXTVALUE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "TXTSTYLE",
+        "alias": "TXTSTYLE",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "TXTHEIGHT",
+        "alias": "TXTHEIGHT",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "LAYER",
+        "alias": "LAYER",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "COLOR",
+        "alias": "COLOR",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "CADTYPE",
+        "alias": "CADTYPE",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "SHAPE_AREA_1",
+        "alias": "SHAPE_AREA_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_LEN_1",
+        "alias": "SHAPE_LEN_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\LandbaseText_LotNum",
+    "feature_class_name_source": "LandbaseText_LotNum",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "FeatureID",
+        "alias": "FeatureID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "ZOrder",
+        "alias": "ZOrder",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "AnnotationClassID",
+        "alias": "AnnotationClassID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Element",
+        "alias": "Element",
+        "type": "Blob",
+        "length": ""
+      },
+      {
+        "name": "SymbolID",
+        "alias": "SymbolID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Status",
+        "alias": "Status",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "TextString",
+        "alias": "TextString",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontName",
+        "alias": "FontName",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontSize",
+        "alias": "FontSize",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Bold",
+        "alias": "Bold",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Italic",
+        "alias": "Italic",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Underline",
+        "alias": "Underline",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "VerticalAlignment",
+        "alias": "VerticalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "HorizontalAlignment",
+        "alias": "HorizontalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "XOffset",
+        "alias": "XOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "YOffset",
+        "alias": "YOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Angle",
+        "alias": "Angle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FontLeading",
+        "alias": "FontLeading",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "WordSpacing",
+        "alias": "WordSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterWidth",
+        "alias": "CharacterWidth",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterSpacing",
+        "alias": "CharacterSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FlipAngle",
+        "alias": "FlipAngle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Override",
+        "alias": "Override",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "UNIQID",
+        "alias": "UNIQID",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "CADTYPE",
+        "alias": "CadType",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "LAYER",
+        "alias": "Layer",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "TXTSTYLE",
+        "alias": "TxtStyle",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "TXTHEIGHT",
+        "alias": "TxtHeight",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "TXTVALUE",
+        "alias": "TxtValue",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "COLOR",
+        "alias": "Color",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_AREA_1",
+        "alias": "SHAPE_AREA_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_LEN_1",
+        "alias": "SHAPE_LEN_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\LandbaseText_Addr",
+    "feature_class_name_source": "LandbaseText_Addr",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "FeatureID",
+        "alias": "FeatureID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "ZOrder",
+        "alias": "ZOrder",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "AnnotationClassID",
+        "alias": "AnnotationClassID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Element",
+        "alias": "Element",
+        "type": "Blob",
+        "length": ""
+      },
+      {
+        "name": "SymbolID",
+        "alias": "SymbolID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Status",
+        "alias": "Status",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "TextString",
+        "alias": "TextString",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontName",
+        "alias": "FontName",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontSize",
+        "alias": "FontSize",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Bold",
+        "alias": "Bold",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Italic",
+        "alias": "Italic",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Underline",
+        "alias": "Underline",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "VerticalAlignment",
+        "alias": "VerticalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "HorizontalAlignment",
+        "alias": "HorizontalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "XOffset",
+        "alias": "XOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "YOffset",
+        "alias": "YOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Angle",
+        "alias": "Angle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FontLeading",
+        "alias": "FontLeading",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "WordSpacing",
+        "alias": "WordSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterWidth",
+        "alias": "CharacterWidth",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterSpacing",
+        "alias": "CharacterSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FlipAngle",
+        "alias": "FlipAngle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Override",
+        "alias": "Override",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "UNIQID",
+        "alias": "UNIQID",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "CADTYPE",
+        "alias": "CadType",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "LAYER",
+        "alias": "Layer",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "TXTSTYLE",
+        "alias": "TxtStyle",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "TXTHEIGHT",
+        "alias": "TxtHeight",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "TXTVALUE",
+        "alias": "TxtValue",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "COLOR",
+        "alias": "Color",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_AREA_1",
+        "alias": "SHAPE_AREA_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_LEN_1",
+        "alias": "SHAPE_LEN_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\LandbaseText_Dimension",
+    "feature_class_name_source": "LandbaseText_Dimension",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "FeatureID",
+        "alias": "FeatureID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "ZOrder",
+        "alias": "ZOrder",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "AnnotationClassID",
+        "alias": "AnnotationClassID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Element",
+        "alias": "Element",
+        "type": "Blob",
+        "length": ""
+      },
+      {
+        "name": "SymbolID",
+        "alias": "SymbolID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Status",
+        "alias": "Status",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "TextString",
+        "alias": "TextString",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontName",
+        "alias": "FontName",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontSize",
+        "alias": "FontSize",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Bold",
+        "alias": "Bold",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Italic",
+        "alias": "Italic",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Underline",
+        "alias": "Underline",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "VerticalAlignment",
+        "alias": "VerticalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "HorizontalAlignment",
+        "alias": "HorizontalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "XOffset",
+        "alias": "XOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "YOffset",
+        "alias": "YOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Angle",
+        "alias": "Angle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FontLeading",
+        "alias": "FontLeading",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "WordSpacing",
+        "alias": "WordSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterWidth",
+        "alias": "CharacterWidth",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterSpacing",
+        "alias": "CharacterSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FlipAngle",
+        "alias": "FlipAngle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Override",
+        "alias": "Override",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "UNIQID",
+        "alias": "UNIQID",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "TXTVALUE",
+        "alias": "TXTVALUE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "TXTSTYLE",
+        "alias": "TXTSTYLE",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "TXTHEIGHT",
+        "alias": "TXTHEIGHT",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "LAYER",
+        "alias": "LAYER",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "COLOR",
+        "alias": "COLOR",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "CADTYPE",
+        "alias": "CADTYPE",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "SHAPE_AREA_1",
+        "alias": "SHAPE_AREA_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_LEN_1",
+        "alias": "SHAPE_LEN_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\Dimensions",
+    "feature_class_name_source": "Dimensions",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "DIMLENGTH",
+        "alias": "DIMLENGTH",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "BEGINX",
+        "alias": "BEGINX",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "BEGINY",
+        "alias": "BEGINY",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "ENDX",
+        "alias": "ENDX",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "ENDY",
+        "alias": "ENDY",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "DIMX",
+        "alias": "DIMX",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "DIMY",
+        "alias": "DIMY",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "TEXTX",
+        "alias": "TEXTX",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "TEXTY",
+        "alias": "TEXTY",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "DIMTYPE",
+        "alias": "DIMTYPE",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "EXTANGLE",
+        "alias": "EXTANGLE",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "STYLEID",
+        "alias": "STYLEID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "USECUSTOMLENGTH",
+        "alias": "USECUSTOMLENGTH",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "CUSTOMLENGTH",
+        "alias": "CUSTOMLENGTH",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "DIMDISPLAY",
+        "alias": "DIMDISPLAY",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "EXTDISPLAY",
+        "alias": "EXTDISPLAY",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "MARKERDISPLAY",
+        "alias": "MARKERDISPLAY",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "TEXTANGLE",
+        "alias": "TEXTANGLE",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "DIMENSION_TEXT",
+        "alias": "Dimension Text",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "STACKED_TEXT",
+        "alias": "Stacked Text",
+        "type": "String",
+        "length": 5
+      },
+      {
+        "name": "SHAPE_AREA_1",
+        "alias": "SHAPE.AREA",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_LEN_1",
+        "alias": "SHAPE.LEN",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_AREA_12",
+        "alias": "SHAPE.AREA",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_LEN_12",
+        "alias": "SHAPE.LEN",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CREATIONUSER",
+        "alias": "Creation User",
+        "type": "String",
+        "length": 20
+      },
+      {
+        "name": "DATECREATED",
+        "alias": "Date Created",
+        "type": "Date",
+        "length": ""
+      },
+      {
+        "name": "DATEMODIFIED",
+        "alias": "Date Modified",
+        "type": "Date",
+        "length": ""
+      },
+      {
+        "name": "LASTUSER",
+        "alias": "Last User",
+        "type": "String",
+        "length": 20
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 12
+      },
+      {
+        "name": "GLOBALID",
+        "alias": "GLOBALID",
+        "type": "GlobalID",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_AREA_12_13",
+        "alias": "SHAPE_AREA_12_13",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_LEN_12_13",
+        "alias": "SHAPE_LEN_12_13",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\MainAnnotation_clean",
+    "feature_class_name_source": "MainAnnotation_clean",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "FeatureID",
+        "alias": "FeatureID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "ZOrder",
+        "alias": "ZOrder",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "AnnotationClassID",
+        "alias": "AnnotationClassID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Element",
+        "alias": "Element",
+        "type": "Blob",
+        "length": ""
+      },
+      {
+        "name": "SymbolID",
+        "alias": "SymbolID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Status",
+        "alias": "Status",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "TextString",
+        "alias": "TextString",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontName",
+        "alias": "FontName",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontSize",
+        "alias": "FontSize",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Bold",
+        "alias": "Bold",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Italic",
+        "alias": "Italic",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Underline",
+        "alias": "Underline",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "VerticalAlignment",
+        "alias": "VerticalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "HorizontalAlignment",
+        "alias": "HorizontalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "XOffset",
+        "alias": "XOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "YOffset",
+        "alias": "YOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Angle",
+        "alias": "Angle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FontLeading",
+        "alias": "FontLeading",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "WordSpacing",
+        "alias": "WordSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterWidth",
+        "alias": "CharacterWidth",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterSpacing",
+        "alias": "CharacterSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FlipAngle",
+        "alias": "FlipAngle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Override",
+        "alias": "Override",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "MAINSWGUID",
+        "alias": "MainSWGUID",
+        "type": "String",
+        "length": 12
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 12
+      },
+      {
+        "name": "TXTVALUE",
+        "alias": "TXTVALUE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "TXTSTYLE",
+        "alias": "TXTSTYLE",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "TXTHEIGHT",
+        "alias": "TXTHEIGHT",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "LAYER",
+        "alias": "LAYER",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "COLOR",
+        "alias": "COLOR",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "CADTYPE",
+        "alias": "CADTYPE",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "CREATIONUSER",
+        "alias": "Creation User",
+        "type": "String",
+        "length": 20
+      },
+      {
+        "name": "DATECREATED",
+        "alias": "Date Created",
+        "type": "Date",
+        "length": ""
+      },
+      {
+        "name": "DATEMODIFIED",
+        "alias": "Date Modified",
+        "type": "Date",
+        "length": ""
+      },
+      {
+        "name": "LASTUSER",
+        "alias": "Last User",
+        "type": "String",
+        "length": 20
+      },
+      {
+        "name": "SHAPE_AREA_1",
+        "alias": "SHAPE_AREA_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_LEN_1",
+        "alias": "SHAPE_LEN_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CleanText",
+        "alias": "CleanText",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  },
+  {
+    "gdb_full_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb",
+    "feature_class_path": "C:\\Users\\geoinformatica\\Documents\\repos\\GIS-MAPCREATION\\survey-mapper\\source-data\\gdbs\\SAZ_Heath_20250611.gdb\\ServiceAnnotation_clean",
+    "feature_class_name_source": "ServiceAnnotation_clean",
+    "fields_to_map": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "OID",
+        "length": ""
+      },
+      {
+        "name": "Shape",
+        "alias": "Shape",
+        "type": "Geometry",
+        "length": ""
+      },
+      {
+        "name": "FeatureID",
+        "alias": "FeatureID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "ZOrder",
+        "alias": "ZOrder",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "AnnotationClassID",
+        "alias": "AnnotationClassID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Element",
+        "alias": "Element",
+        "type": "Blob",
+        "length": ""
+      },
+      {
+        "name": "SymbolID",
+        "alias": "SymbolID",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "Status",
+        "alias": "Status",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "TextString",
+        "alias": "TextString",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontName",
+        "alias": "FontName",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "FontSize",
+        "alias": "FontSize",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Bold",
+        "alias": "Bold",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Italic",
+        "alias": "Italic",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "Underline",
+        "alias": "Underline",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "VerticalAlignment",
+        "alias": "VerticalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "HorizontalAlignment",
+        "alias": "HorizontalAlignment",
+        "type": "SmallInteger",
+        "length": ""
+      },
+      {
+        "name": "XOffset",
+        "alias": "XOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "YOffset",
+        "alias": "YOffset",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Angle",
+        "alias": "Angle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FontLeading",
+        "alias": "FontLeading",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "WordSpacing",
+        "alias": "WordSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterWidth",
+        "alias": "CharacterWidth",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CharacterSpacing",
+        "alias": "CharacterSpacing",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "FlipAngle",
+        "alias": "FlipAngle",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Override",
+        "alias": "Override",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "SERVICESWGUID",
+        "alias": "ServiceSWGUID",
+        "type": "String",
+        "length": 12
+      },
+      {
+        "name": "SWGUID",
+        "alias": "SWGUID",
+        "type": "String",
+        "length": 12
+      },
+      {
+        "name": "TXTVALUE",
+        "alias": "TXTVALUE",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "TXTSTYLE",
+        "alias": "TXTSTYLE",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "TXTHEIGHT",
+        "alias": "TXTHEIGHT",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "LAYER",
+        "alias": "LAYER",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "COLOR",
+        "alias": "COLOR",
+        "type": "Integer",
+        "length": ""
+      },
+      {
+        "name": "CADTYPE",
+        "alias": "CADTYPE",
+        "type": "String",
+        "length": 50
+      },
+      {
+        "name": "SHAPE_AREA_1",
+        "alias": "SHAPE_AREA_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "SHAPE_LEN_1",
+        "alias": "SHAPE_LEN_1",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "CleanText",
+        "alias": "CleanText",
+        "type": "String",
+        "length": 255
+      },
+      {
+        "name": "Shape_Length",
+        "alias": "Shape_Length",
+        "type": "Double",
+        "length": ""
+      },
+      {
+        "name": "Shape_Area",
+        "alias": "Shape_Area",
+        "type": "Double",
+        "length": ""
+      }
+    ]
+  }
+]

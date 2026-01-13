@@ -1,0 +1,23 @@
+{
+  "projectName": "TEST_SAZ",
+  "surveyType": "mobile-patrol",
+  "outputDirectory": "/output",
+  "lutassettypes": {
+    "lutassettypes_new_name_field_DESCRIPTION": "The field name of the layer to be renamed to from the 'Name' field.",
+    "lutassettypes_new_name_field": "AlternativeName",
+    "source_type_DESCRIPTION": "Whether the source is an Excel file or a SQL table <'excel' or 'sql'>. If 'sql', include the database name.",
+    "source_type": "excel",
+    "source_sql_db_name_DESCRIPTION": "The database name if the source is a SQL table.",
+    "source_sql_db_name": "lutassettypes"
+  },
+  "gridzones": {
+    "feature_class_name_source_DETAILS": "Required. The name of the feature class to be joined and exported. This is the 'Name' field in the lutassettypes_updated.xlsx file",
+    "feature_class_name_source": "OldDocBoundary",
+    "shapefile_name_target_DETAILS": "Required. The target feature class name to be saved in the gdb or shp file.",
+    "shapefile_name_target": "Gridzones",
+    "GridZoneId_field_DETAILS": "Required. The field in the feature class used to join with the Excel table.",
+    "GridZoneId_field": "SWGUID",
+    "join_excel_field_name_DETAILS": "Required. The field in the Excel table used to join with the feature class.",
+    "join_excel_field_name": "SWGUID"
+  }
+}

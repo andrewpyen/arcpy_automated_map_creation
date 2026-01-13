@@ -1,0 +1,374 @@
+{
+    "projectName_DESCRIPTION": "This is the division or project name to be used in the title of maps.",
+    "projectName": "TEST_SAZ",
+    "surveyType_DESCRIPTION": "This is the survey type such as 'DOT', 'Annuals', 'Mobile Patrol' or others.",
+    "surveyType": "DOT",
+    "outputDirectory_DESCRIPTION": "Full filepath to a local output directory to save the final zipped file.",
+    "outputDirectory": "/output",
+    "lutassettypes_DESCRIPTION": "The table referencing each feature class name as the standard.",
+    "lutassettypes": {
+      "lutassettypes_new_name_field_DESCRIPTION": "The field name of the layer to be renamed to from the 'Name' field.",
+      "lutassettypes_new_name_field": "AlternativeName",
+      "source_type_DESCRIPTION": "Whether the source is an Excel file or a SQL table <'excel' or 'sql'>. If 'sql', include the database name.",
+      "source_type": "excel",
+      "source_sql_db_name_DESCRIPTION": "The database name if the source is a SQL table.",
+      "source_sql_db_name": "lutassettypes"
+    },
+    "gridzones_DETAILS": "The feature class or shapefile representing the gridzones to be joined.",
+    "gridzones": {
+      "feature_class_name_source_DETAILS": "Required. The name of the feature class to be joined and exported.",
+      "feature_class_name_source": "OldDocBoundary",
+      "shapefile_name_target_DETAILS": "Required. The target feature class name to be saved in the gdb or shp file.",
+      "shapefile_name_target": "Gridzones",
+      "GridZoneId_field_DETAILS": "Required. The field in the feature class used to join with the Excel table.",
+      "GridZoneId_field": "SWGUID",
+      "join_excel_field_name_DETAILS": "Required. The field in the Excel table used to join with the feature class.",
+      "join_excel_field_name": "SWGUID",
+      "fields_to_map_DETAILS": "Optional. List of field mapping configurations with name, alias, type, and length for ExportFeatures.",
+      "fields_to_map": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID",
+          "type": "OID",
+          "length": ""
+        },
+        {
+          "name": "Shape",
+          "alias": "Shape",
+          "type": "Geometry",
+          "length": ""
+        },
+        {
+          "name": "Shape_Length",
+          "alias": "Shape_Length",
+          "type": "Double",
+          "length": ""
+        },
+        {
+          "name": "Shape_Area",
+          "alias": "Shape_Area",
+          "type": "Double",
+          "length": ""
+        },
+        {
+          "name": "SWGUID",
+          "alias": "SWGUID",
+          "type": "String",
+          "length": 255
+        },
+        {
+          "name": "BOUNDARYNAMEID",
+          "alias": "BOUNDARYNAMEID",
+          "type": "String",
+          "length": 255
+        },
+        {
+          "name": "SHAPE_",
+          "alias": "SHAPE_",
+          "type": "Double",
+          "length": ""
+        }
+      ]
+    },
+    "feature_classes_to_clip_DETAILS": "List of objects of each feature class/shapefile to be joined, clipped, and merged with the `gridzones` layer.",
+    "feature_classes_to_clip": [
+      {
+        "feature_class_name_source_DETAILS": "Required. Name of feature class contained in file geodatabase.",
+        "feature_class_name_source": "Main",
+        "shapefile_name_target": "Main",
+        "fields_to_map_DETAILS": "Optional. List of field mapping configurations with name, alias, type, and length for ExportFeatures.",
+        "fields_to_map": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID",
+          "type": "OID",
+          "length": ""
+        },
+        {
+          "name": "Shape",
+          "alias": "Shape",
+          "type": "Geometry",
+          "length": ""
+        },
+        {
+          "name": "Shape_Length",
+          "alias": "Shape_Length",
+          "type": "Double",
+          "length": ""
+        },
+        {
+          "name": "SWGUID",
+          "alias": "SWGUID",
+          "type": "String",
+          "length": 255
+        },
+        {
+          "name": "RECORDEDLENGTH",
+          "alias": "RECORDEDLENGTH",
+          "type": "Integer",
+          "length": ""
+        },
+        {
+          "name": "MAINTYPE",
+          "alias": "MAINTYPE",
+          "type": "String",
+          "length": 255
+        },
+        {
+          "name": "MATERIAL",
+          "alias": "MATERIAL",
+          "type": "Integer",
+          "length": ""
+        },
+        {
+          "name": "DIAMETER",
+          "alias": "DIAMETER",
+          "type": "Double",
+          "length": ""
+        },
+        {
+          "name": "MANUFACTURER",
+          "alias": "MANUFACTURER",
+          "type": "String",
+          "length": 255
+        },
+        {
+          "name": "INSTALLATIONDATE",
+          "alias": "INSTALLATIONDATE",
+          "type": "Date",
+          "length": ""
+        },
+        {
+          "name": "JOBNUMBER",
+          "alias": "JOBNUMBER",
+          "type": "String",
+          "length": 255
+        },
+        {
+          "name": "SHAPE_",
+          "alias": "SHAPE_",
+          "type": "Double",
+          "length": ""
+        },
+        {
+          "name": "NCDPMaterial",
+          "alias": "NCDPMaterial",
+          "type": "String",
+          "length": 255
+        }
+      ],
+        "clip_query_DETAILS": "Optional. SQL where clause used in SelectLayerByAttribute for selecting features prior to clip.",
+        "clip_query": "MAINTYPE IN ('Feeder', 'Transmission', 'Transmission > 20', 'Distribution')",
+        "merge_clip_result_with_these_clip_layers": ["Main", "Proposed"]
+      },
+      {
+        "feature_class_name_source_DETAILS": "Required. Name of feature class contained in file geodatabase.",
+        "feature_class_name_source": "Riser",
+        "shapefile_name_target": "NIPoints",
+        "fields_to_map_DETAILS": "Optional. List of field mapping configurations with name, alias, type, and length for ExportFeatures.",
+        "fields_to_map": [
+          {
+            "name": "Type",
+            "alias": "Type",
+            "type": "Text",
+            "length": 255
+          }
+        ],
+        "merge_clip_result_with_these_clip_layers": ["NIPoints", "NullRiser", "InactiveRiser"]
+      },
+      {
+        "feature_class_name_source": "Inactive_Riser",
+        "shapefile_name_target": "InactiveRiser"
+      },
+      {
+        "feature_class_name_source": "NULL_RISER",
+        "shapefile_name_target": "NullRiser"
+      },
+      {
+        "feature_class_name_source": "ProposedLegacy",
+        "shapefile_name_target": "Proposed",
+        "fields_to_map_DETAILS": "Optional. List of field mapping configurations with name, alias, type, and length for ExportFeatures.",
+        "fields_to_map": [
+        {
+          "name": "OBJECTID",
+          "alias": "OBJECTID",
+          "type": "OID",
+          "length": ""
+        },
+        {
+          "name": "Shape",
+          "alias": "Shape",
+          "type": "Geometry",
+          "length": ""
+        },
+        {
+          "name": "Shape_Length",
+          "alias": "Shape_Length",
+          "type": "Double",
+          "length": ""
+        },
+        {
+          "name": "SWGUID",
+          "alias": "SWGUID",
+          "type": "String",
+          "length": 255
+        },
+        {
+          "name": "STATUS",
+          "alias": "STATUS",
+          "type": "String",
+          "length": 255
+        },
+        {
+          "name": "SHAPE_",
+          "alias": "SHAPE_",
+          "type": "Double",
+          "length": ""
+        }
+      ],
+        "clip_query_DETAILS": "Optional. SQL where clause used in SelectLayerByAttribute for selecting features prior to clip.",
+        "clip_query": "STATUS = 'Gassed'"
+      },
+      {
+        "feature_class_name_source": "Services",
+        "shapefile_name_target": "Services"
+      },
+      {
+        "feature_class_name_source_DETAILS": "Required. Name of feature class contained in file geodatabase.",
+        "feature_class_name_source": "LONG_SERVICES",
+        "shapefile_name_target": "NILines",
+        "fields_to_map_DETAILS": "Optional. List of field mapping configurations with name, alias, type, and length for ExportFeatures.",
+        "fields_to_map": [
+          {
+            "name": "Type",
+            "alias": "Type",
+            "type": "Text",
+            "length": 255
+          }
+        ],
+        "merge_clip_result_with_these_clip_layers": ["NILines", "MegaServices"]
+      },
+      {
+        "feature_class_name_source_DETAILS": "Required. Name of feature class contained in file geodatabase.",
+        "feature_class_name_source": "MEGA_SERVICES",
+        "shapefile_name_target": "MegaServices"
+      },
+      {
+        "feature_class_name_source_DETAILS": "Required. Name of feature class contained in file geodatabase.",
+        "feature_class_name_source": "LandbaseTextDimension",
+        "isAnnotationLayer_DETAILS": "Optional. If true, processes as an annotation layer.",
+        "isAnnotationLayer": true,
+        "shapefile_name_target": "LandbaseTextDimension",
+        "merge_clip_result_with_these_clip_layers": [
+          "LandbaseTextDimension", 
+          "MainAnnotation", 
+          "ServiceAnnotation", 
+          "LandbaseTextProposed", 
+          "LandbaseTextLotNum", 
+          "LandbaseTextAddr"
+        ]
+      },
+      {
+        "feature_class_name_source": "MainAnnotation_clean",
+        "shapefile_name_target": "MainAnnotation_clean"
+      },
+      {
+        "feature_class_name_source": "ServiceAnnotation_clean",
+        "shapefile_name_target": "ServiceAnnotation_clean"
+      },
+      {
+        "feature_class_name_source_DETAILS": "Required. Name of feature class contained in file geodatabase.",
+        "feature_class_name_source": "MainAnnotation",
+        "shapefile_name_target": "MainAnnotation"
+      },
+      {
+        "feature_class_name_source_DETAILS": "Required. Name of feature class contained in file geodatabase.",
+        "feature_class_name_source": "ServiceAnnotation",
+        "shapefile_name_target": "ServiceAnnotation"
+      },
+      {
+        "feature_class_name_source_DETAILS": "Required. Name of feature class contained in file geodatabase.",
+        "feature_class_name_source": "LandbaseTextProposed",
+        "shapefile_name_target": "LandbaseTextProposed"
+      },
+      {
+        "feature_class_name_source_DETAILS": "Required. Name of feature class contained in file geodatabase.",
+        "feature_class_name_source": "LandbaseTextLotNum",
+        "shapefile_name_target": "LandbaseTextLotNum"
+      },
+      {
+        "feature_class_name_source_DETAILS": "Required. Name of feature class contained in file geodatabase.",
+        "feature_class_name_source": "LandbaseTextAddr",
+        "shapefile_name_target": "LandbaseTextAddr"
+      },      {
+        "feature_class_name_source": "ProposedLegacy",
+        "shapefile_name_target": "ProposedLegacy"
+      },
+      {
+        "feature_class_name_source": "BusinessDistrict",
+        "shapefile_name_target": "BusinessDistrict"
+      },
+      {
+        "feature_class_name_source": "LeakSurvey",
+        "shapefile_name_target": "LeakSurvey"
+      },
+      {
+        "feature_class_name_source": "ControllableFitting",
+        "shapefile_name_target": "ControllableFitting"
+      },
+      {
+        "feature_class_name_source": "NonControllableFitting",
+        "shapefile_name_target": "NonControllableFitting"
+      },
+      {
+        "feature_class_name_source": "GasValve",
+        "shapefile_name_target": "GasValve"
+      },
+      {
+        "feature_class_name_source": "RegulatorStation",
+        "shapefile_name_target": "RegulatorStation"
+      },
+      {
+        "feature_class_name_source_DETAILS": "Required. Name of feature class contained in file geodatabase.",
+        "feature_class_name_source": "STUBS",
+        "shapefile_name_target": "Stubs"
+      },
+      {
+        "feature_class_name_source": "GasLeakRepair",
+        "shapefile_name_target": "GasLeakRepair"
+      },
+      {
+        "feature_class_name_source": "WORK_REQUEST",
+        "shapefile_name_target": "WORK_REQUEST"
+      },
+      {
+        "feature_class_name_source": "SAPDATA",
+        "shapefile_name_target": "SAPDATA"
+      },
+      {
+        "feature_class_name_source": "ROWLine",
+        "shapefile_name_target": "ROWLine"
+      },
+      {
+        "feature_class_name_source": "PropertyLine",
+        "shapefile_name_target": "PropertyLine"
+      },
+      {
+        "feature_class_name_source": "DimensionLineLegacy",
+        "shapefile_name_target": "DimensionLineLegacy"
+      },
+      {
+        "feature_class_name_source": "QuarterTownship",
+        "shapefile_name_target": "QuarterTownship"
+      },
+      {
+        "feature_class_name_source": "Tract",
+        "shapefile_name_target": "Tract"
+      },
+      {
+        "feature_class_name_source": "Dimensions",
+        "shapefile_name_target": "Dimensions"
+      }
+    ],
+    "feature_classes_to_clip_UNUSED": []
+  }
