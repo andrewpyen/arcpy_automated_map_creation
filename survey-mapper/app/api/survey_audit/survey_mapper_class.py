@@ -506,6 +506,7 @@ class SurveyMapper:
                                     # Get source feature rows count for auditing
                                     source_count = self._count_fc(source_data_name)
                                     selected_count = source_count
+                                    clipped_count = 0  # No clipping occurs for MERGE_LAYERS rows
 
                                     clip_counter.add_row(
                                         sheet=sheet_name,
